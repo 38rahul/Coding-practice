@@ -1,0 +1,144 @@
+
+class A
+
+   A obj=  new A();
+   -------------
+   
+   Class c = Class.ForName(A);
+   
+   A obj1= A().c.NewInstance();
+   
+   
+   B obj2 = (B).obj1.clone();
+   
+   
+   class A{
+   
+   public static int sum( int a, int b){
+		int sum=0;
+		sum=a+b;
+   }
+   
+   class B extends A{
+   
+	public static int sum( int a, int b){
+		int sum=0;
+		sum=a+b;
+   }
+   
+   }
+   
+   ['A','B','c']
+   
+   //String value = 'A',B,C,D,E;
+   String value = "Apple,Orange,Grape,Banana";
+   char arr[] = value.toCharArray();
+   
+   Stack<String> s= new Stack<>();
+   for()
+   S.push()
+   
+   
+   ---------------
+   
+   /* Online Java Compiler and Editor */
+import java.util.*;
+public class HelloWorld{
+    
+    // "Banana,Grape,Orange,Apple"
+
+     public static void main(String []args){
+        System.out.println("Hello, World!" );
+         String value = "Apple,Orange,Grape,Banana";
+        //  char arr[] = value.toCharArray();
+        // for(char a: arr)
+        
+        Stack<Character> s= new Stack<Character>();
+        for(char c: value.toCharArray())
+            s.push(c);
+        System.out.print(s);
+        // while(!s.empty()){
+        //     System.out.print( s.pop());
+        
+        
+        
+        
+          
+        //String 
+        
+     }
+}
+
+												Throwable
+										
+										Exception                                         Error
+											IOException
+											SQLException
+											RuntimeException  
+														ArithematicException
+														
+										
+										
+									class 	MyCheckedException extends Throwable{
+									  public static void main() throws FileNotFoundException{
+										FiileInput()
+									  }
+									  
+									}
+			
+			
+		       
+			     class MyUnCheckedException extends RuntimeException{
+				 
+				 }
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 
+				 ------------------SQL---------------------
+				 
+				  Id    name      managerid
+
+					1   One      
+					2   two        1
+					3   three      1
+					4   four    
+					5   five       4
+				 
+				 
+				 
+				Employee    Manager
+				One        
+				One           One
+				Three         One
+				Four
+				Five          Four
+				
+				
+		SELECT U.Id, e.name,M.Id  FROM Employee e
+		left outer join Employ M
+		on e.Id= U.Id
+				
+				
+				 
+				 
+				 
+				 
+				 
+														
+													
+			
+   
+   
+   
+   
+   
+	
+   
+   
+   
+   

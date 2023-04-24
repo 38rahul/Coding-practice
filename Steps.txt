@@ -1,0 +1,21 @@
+npx create-react-app my-app
+npm install bootstrap --save
+npm install axios --save
+
+npm run build
+
+
+nmp install :: To install Node Modules
+
+
+
+git status
+git branch
+git checkout -b branchname
+
+For push the changes to BitBucket
+
+git status
+git add  --> Add the changes into local
+git commit --> To commit in Local
+git push  --> to commit in bit bucket
