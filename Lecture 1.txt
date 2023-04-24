@@ -1,0 +1,159 @@
+=======================Exctension 	in VS code to be used ==================
+
+					9:00min 
+					12: 00 min
+					you will learn How to code ?
+					
+					19: 00 min  --> creating a new Folder 
+					-> you do't have to code along with me. just see the screen and focus 
+					
+					index.html 
+				What is the difference between Library and framework ?
+				--> Framework means that it's a full fledge framework. when we build any website it needs a lot of things. it needs routing, you will need different route
+					where you can go on different pages and you can have different components inside your App. 
+					But React comes as a Small Library.
+					
+				Question:	Have you seen image carasoul in the web site ?? where images moves right and left.
+				
+				Q: What is carasoul ?
+					-> it is a Javascript Library. 
+				The major difference between library and framework is , it takes minimum effort for a Library to just put it inside our code
+
+					=============23: 00 What tools i'm using in vs code
+					
+				chrome , vs code , 
+					
+					extensions: 
+					
+				Better comments   --> to make your commenets better
+				bracket pair colorizer  ->it basically  colors your  bracket
+				E7 react redux 
+				Git lens    -> to makes using git very easy. 
+				Prettier code formatter   -> makes your code formatted. Formats it better
+				Vscode --> Icons
+				tabnine
+				Emmet  -> 
+
+				Home Work:: Read about Emmet  -> it gives boilerplate code of Html
+
+
+				<html>
+				<div id="root">
+					
+				</div>
+					<script>
+						const heading = document.createElement("h1");  // create h1 tag using js
+						heading.innerHtml = "Namaste React";
+						const root = document.getElementById("root");
+						root.appendChild(heading);
+					</script>
+				</html>
+
+
+
+
+			Q: What is carasoul ?
+				-> it is a Javascript Library. 
+
+			Question: How does Browser run this Html Code? What is this document ? What is  create Element ?
+
+		   -> it comes from Browser API. Browser knows what is document. Browser has js Engine. browser knows about window object
+		   ---------------------36:00 min-----------------
+		
+			
+		
+									================= 35: 00====================
+									
+				Inject react into your code 
+				Google : cdn react:
+		
+		Read about cdn: Content Delivery Network
+		
+		what is react ??
+		--> This at the end a JS. you don't have to panic about what is react , This is the js which fb developers wrote for us. 
+		
+		What is crossOrigin ?? imported in react
+		
+		what is the shortes program of js ?
+		--> Empty file
+		
+		Question : what is the shortest program of React ?
+		--> Empty file
+		
+		react.development.js  -> core library of react
+		react-dom.development.js  --> gives acces to something called as react DOM, means web version of React.
+			this gives you access to dom 
+		
+		
+		React is Global Object ? Yes. You can try in console.
+		
+		React.CreateElement
+		React.createContext
+		
+		What makes react complex if it is so easy ??
+		
+		There is something called as React Native, React 3d. So react is not just related to browser. react also works on mobile devices.
+		
+		
+		Question: ReactDOM is a global Object ?
+		is window replacing with react ??
+		
+		-------------------------50: 00-------------------
+		create Hello World Prog. using React 
+		
+		
+				================== 52: 000 ========================== Yet to go through it----------------------------
+		
+		What is react Element at the end of the day??   --> It is an Object
+		
+		what is {} in React.CreateElement('h1', {} , 'Hello heading')?
+			--->> 
+			
+		if you have small doubts , go google it. we developers can have small doubts.
+		
+		
+
+			
+		
+	 What is react.fragment ?
+	 why we use curly braces while giving inlline style bcoz at the end it is a JS Object
+	 
+	 
+	 
+	 
+	 1:15 min
+	 
+	 ====================== 1: 30===========
+	 What is the difference between async and differ .. Akshay siani 
+	 
+	 
+	 ==================1:40=============
+	 
+	 
+	 When React was built it came with the style of writing code... basically they wanted to write their html inside js.  
+	 
+	 Question: why should we inject our CSS into head tag ??
+	 
+	 
+	 
+	 --> 
+	 
+	 =============================Completed  this session =====================================
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 
+	 ==============Chit chat ================25 min =======================
+	 
+	 What is Expression?
+	 --> Something which just executes.
+	 What is not an Expression ?
+	 --> if you are doing an assignment then it is not an Expression
+			eg.. xyz =30;
+			

@@ -1,0 +1,150 @@
+============================== Lecture 10==========Jo Dikhta hai wo Bikta hai
+
+
+		Normal Native css
+		Scss / Sass
+		inline css
+		component libraries  --> mui / base UI / Ant UI / Chakra UI 
+		
+		Syled components --> This is majorly used in react projects 
+		
+		
+		IDEA BEHIND STYLED COMPONENTS::
+		--> when we code in react where we write our html type of code? --> we bring html inside js
+			Similarly there are Army of developer whose idea was to bring Css inside our JS.
+			
+		what is the biggest pain of writing styled component??
+		--> 
+			
+		
+		pros and cons of All the above.
+		As a senior engineer when you are going for an interview you should exactly know what are the pros and cons 
+		why should we write inloone css, why shoul we not write inline css 
+		what is the use of component Libraries , what is not use of component Libraries 
+		
+		
+			// Trending css Framework ---> Tailwind CSS
+				
+				css on the go (write in the same file)
+				reusabillity
+				Less bundle size as it is minimal css offer to us
+				Flexible UI(customizable)  --> a lot of control over customization
+				
+				Always use npm package
+				
+				install tailwaind in our Project
+				
+				WHat is postcss ?  -> a tool for transforming css with javascript
+				we need to tell our parcel project that we are tailwind in our project
+				
+				Does browser understand text-xl ,text-2xl?? NO 
+				
+			Question: What is postcssrc file ?
+			--> it takes the configuration and tells our parcel that in our project there would be seen a lot of tailwaind classes 
+				so we need to configure it that when we are bundling things up so compile tailwind css into Normal css
+				
+				===================================	01: 38:00=========================
+				Tailwind configuration steps:
+				
+				1: install the tailwind and postcss
+				2: tailwind init   -> create tailwaind config files
+				3: tell config files what files do you want to scan
+				
+				now we have to configure our post css
+				
+				.postcssrc file
+					{
+						"plugins": {
+							"tailwaindcss": {}
+						}
+					}
+					
+				index.css
+					@tailwaind base;
+					@tailwaind components;
+					@tailwaind utilities;
+				
+				Done Tailwind configuration
+				
+				Tailwind Extension inside vscode: Tailwind css intelliSence
+				
+				if extension is not showing you suggestion --> ctrl + spacebar
+				
+				
+				
+				Question: what if I exactly have to give 200px ? 
+						--> Square bracket notation --> you can give the dynamic valueto it.
+				
+				<div className="w-[200px]"  --> when you want to give width  exactly 200px 
+				
+				
+				
+			============================================2: 07=====================================
+			
+			A cool thing about tailwind css is let's go to sources and let's see our css file ... filter your css file 
+			
+			parcel is doing this stuff and parcel is taking the help of postcss and tailwaind library compile all those classes and
+			ship into our project. 
+			
+			--> Tailwind css has 1000s of classes. So tailwaind css make sure you will only include the classes that 
+				you have used in your project only those will be shipped to production. it makes the bundle size of css very small.
+				Tailwind only include the file which we have used in. 
+				
+				
+			NOTE: ADVICE
+			
+			--> whenever you are writing code right stick to the native tailwind classes. Don't write Dynamic classes why ??
+		    --> first thing is tailwind understands it. tailwind won't create a new class for every dynamic class you write. 
+			    So it will be having less code and it will maintian the consistency. 
+				
+				
+				
+				=====================================2:21===================================
+				
+				=====================================2:30===================================
+				
+				Learn: How to write media Query ??
+				
+				
+				Question: How do you write media Query inside it ??
+				 
+				 --> Suppose i want to build a feature on my Mobile fone So, my css should change according to the width of my screen.
+				 
+				 Suppose if  my website crosses the Thresold of width of small devices then make my header blue. 
+				 
+				 
+				=====================================   2:37  (Pros and cons of Tailwind) ==================================
+				--> whne you will say tailwind in your interview round you have to justiy of pros and cons of TAILWIND
+				PROs of Tailwind
+				-> Easy to Debug.
+				-> Less code is shipped to production
+				-> Easy to use
+				-> No Duplicate css
+				-> Bundle size is small
+				-> Faster Development (Because you don't have to switch b/w files)
+				-> it is much more customizable compare to material ui. 
+				-> it gives a lot more control over things 
+				--Important: you can customize however you want your ui to be. it doesn't inforce you to something. 
+				
+				
+				CONS of TAILWIND
+				
+				-> There is a high Learning cure associated with it.
+				->  it makes the class name a little ugly 
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				
+				=============================Completed=====================================
+								
+				 
+				
+				
+				
+			
